@@ -571,9 +571,6 @@ services:
     networks:
       - ssrf_proxy_network  # 与 ssrf_proxy 共享网络
       - default  # 新增默认网络
-    dns:  # 新增 DNS 配置
-        - 8.8.8.8    # 主 DNS
-        - 114.114.114.114  # 备用 DNS
 
   # plugin daemon
   plugin_daemon:

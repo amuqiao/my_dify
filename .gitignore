@@ -207,4 +207,6 @@ plugins.jsonl
 # mise
 mise.toml
 
-test.py
+/test
+
+
