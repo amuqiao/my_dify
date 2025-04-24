@@ -512,6 +512,8 @@ services:
   # The postgres database.
   db:
     image: postgres:15-alpine
+    ports:
+      - "5432:5432"
     restart: always
     environment:
       PGUSER: ${PGUSER:-postgres}
